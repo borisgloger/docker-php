@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
 
-docker tag 25thfloor/php-fpm:7.1 25thfloor/php-fpm:latest
-docker tag 25thfloor/php-nginx:7.1 25thfloor/php-nginx:latest
-
-docker push 25thfloor/php-nginx
-docker push 25thfloor/php-fpm
+docker push borisgloger/php-nginx:7.3
+docker push borisgloger/php-fpm:7.3
